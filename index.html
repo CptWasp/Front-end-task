@@ -1280,6 +1280,7 @@ var array = JSON.parse(json);
 
 //alert(array[0].Name);
                 $("#some-block-about-cars").empty();
+            
             $(".0").attr("class", "page-item 0 active");
             
             $(".1").attr("class", "page-item 1");
@@ -3663,9 +3664,8 @@ var array = JSON.parse(json);
 
 //alert(array[0].Name);
      $("#some").html("<center><h1>Третий JSON</h1></center>");
-      
-        $(document).ready(function(){
-            $(".0").attr("class", "page-item 0 ");
+      $("#some-block-about-cars").empty();
+        $(".0").attr("class", "page-item 0 ");
             
             $(".1").attr("class", "page-item 1");
             
@@ -3674,8 +3674,10 @@ var array = JSON.parse(json);
             $(".3").attr("class", "page-item 3");
             
             $(".4").attr("class", "page-item 4");
+        $(document).ready(function(){
             
-            $("#some-block-about-cars").empty();
+            
+            
             
             for(i=0; i<array.length; i++){
                 
@@ -3735,46 +3737,8 @@ var array = JSON.parse(json);
         
    
         function fourthPage(){
-            
-            
-            
-            
-            
+   
         var json = `[
-  {
-    "Name":"plymouth fury gran sedan",
-    "Miles_per_Gallon":14,
-    "Cylinders":8,
-    "Displacement":318,
-    "Horsepower":150,
-    "Weight_in_lbs":4237,
-    "Acceleration":14.5,
-    "Year":"1973-01-01",
-    "Origin":"USA"
-  },
-  {
-    "Name":"chrysler new yorker brougham",
-    "Miles_per_Gallon":13,
-    "Cylinders":8,
-    "Displacement":440,
-    "Horsepower":215,
-    "Weight_in_lbs":4735,
-    "Acceleration":11,
-    "Year":"1973-01-01",
-    "Origin":"USA"
-  },
-  {
-    "Name":"buick electra 225 custom",
-    "Miles_per_Gallon":12,
-    "Cylinders":8,
-    "Displacement":455,
-    "Horsepower":225,
-    "Weight_in_lbs":4951,
-    "Acceleration":11,
-    "Year":"1973-01-01",
-    "Origin":"USA"
-  }
-][
   {
     "Name":"vw rabbit custom",
     "Miles_per_Gallon":31.9,
@@ -4878,17 +4842,11 @@ var array = JSON.parse(json);
 ]
 `
     
-        
-        
- 
-
 var array = JSON.parse(json);
 
 //alert(array[0].Name);
-     $("#some").html("<center><h1>Третий JSON</h1></center>");
-      
-        $(document).ready(function(){
-            $("#some-block-about-cars").empty();
+     $("#some").html("<center><h1>Четвертый JSON</h1></center>");
+             $("#some-block-about-cars").empty();
             $(".0").attr("class", "page-item 0 ");
             
             $(".1").attr("class", "page-item 1");
@@ -4898,6 +4856,9 @@ var array = JSON.parse(json);
             $(".3").attr("class", "page-item 3 active");
             
             $(".4").attr("class", "page-item 4");
+      
+        $(document).ready(function(){
+           
             
             for(i=0; i<array.length; i++){
                 
@@ -4938,22 +4899,10 @@ var array = JSON.parse(json);
                 
             //$("<h6>"+array[i].Name+"</h6>").appendTo(".objName");
             
-                
-                
-                
-                
-                
-            
-                       
+                               
         }
-        
-        
-        });
-        
-        
-      
-
-        }
+    });
+}
         
         
         
@@ -5040,11 +4989,9 @@ var array = JSON.parse(json);
 var array = JSON.parse(json);
 
 //alert(array[0].Name);
-     $("#some").html("<center><h1>Третий JSON</h1></center>");
-      
-        $(document).ready(function(){
-            $("#some-block-about-cars").empty();
-            $(".0").attr("class", "page-item 0 ");
+     $("#some").html("<center><h1>Пятый JSON</h1></center>");
+      $("#some-block-about-cars").empty();
+            $(".0").attr("class", "page-item 0");
             
             $(".1").attr("class", "page-item 1");
             
@@ -5053,6 +5000,8 @@ var array = JSON.parse(json);
             $(".3").attr("class", "page-item 3");
             
             $(".4").attr("class", "page-item 4 active");
+        $(document).ready(function(){
+            
             
             
             for(i=0; i<array.length; i++){
