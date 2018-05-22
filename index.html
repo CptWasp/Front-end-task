@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    
+    
+     <title>Title</title>
+    
+        <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+    
+    
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script  src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+ 
+</head>
+<body>
+                <!--#####################################-->
+                            <!-- NAVBAR -->
+                <!--#####################################-->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    
+    
+    
+    
+    
+                <!--#####################################-->
+                            <!-- PAGINATION -->
+                <!--#####################################-->
+    
+    
+    
+    <div class="container">
+        <nav aria-label="">
+              <ul class="pagination">
+                  
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a>
+                    </li>
+                  
+                    <li class="page-item">
+                        <a class="page-link active" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">4</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">5</a>
+                    </li>
+                    
+                  
+                  
+                    <li class="page-item">
+                      <a class="page-link" href="#"><i class="fas fa-angle-right"></i></a>
+                    </li>
+                  
+              </ul>
+        </nav>
+    </div>
+    
+    
+    
+    <!-- Сделаем по другому -->
+    
+    
+
+    <center><h1>Первый JSON</h1></center>
+    <div class="container">
+        <div class="row">
+            
+                <div class="col-lg-offset-6 col-lg-6">
+                    <div id="some-block-about-cars">
+                        
+                        
+                        
+<!--
+                        <div class="table">
+                              <div class="table__row table__row--head">
+                                <div class="table__cell table__cell--head objName">Название</div>
+                                <div class="table__cell table__cell--head objMiles">Расход топлива мл/г</div>
+                                <div class="table__cell table__cell--head objCylinders">Цилиндры</div>
+                                <div class="table__cell table__cell--head objDisplacement">Рабочий объём</div>
+                                <div class="table__cell table__cell--head objHorsePower">Л.C</div>
+                                <div class="table__cell table__cell--head objWeight_in_lbs">Вес</div>
+                                <div class="table__cell table__cell--head objAcceleration">Ускорение м/c2</div>
+                                <div class="table__cell table__cell--head objYear">Год выпуска</div>
+                                <div class="table__cell table__cell--head objOrigin">Производство</div>
+                              </div>
+                            </div>
+-->
+                    </div>
+                </div>
+        
+            
+        </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   <!-- JS -->
+    
+    
+    <script type="text/javascript">
+        
+        var json = `[
+  {
+    "Name":"chevrolet chevelle malibu",
+    "Miles_per_Gallon":18,
+    "Cylinders":8,
+    "Displacement":307,
+    "Horsepower":130,
+    "Weight_in_lbs":3504,
+    "Acceleration":12,
+    "Year":"1970-01-01",
+    "Origin":"USA"
+  },
+  {
+    "Name":"buick skylark 320",
+    "Miles_per_Gallon":15,
+    "Cylinders":8,
+    "Displacement":350,
+    "Horsepower":165,
+    "Weight_in_lbs":3693,
+    "Acceleration":11.5,
+    "Year":"1970-01-01",
+    "Origin":"USA"
+  },
+  {
+    "Name":"plymouth satellite",
+    "Miles_per_Gallon":18,
+    "Cylinders":8,
+    "Displacement":318,
+    "Horsepower":150,
+    "Weight_in_lbs":3436,
+    "Acceleration":11,
+    "Year":"1970-01-01",
+    "Origin":"USA"
+  }]`
+    
+        
+        
+ 
+
+var array = JSON.parse(json);
+
+//alert(array[0].Name);
+      
+        $(document).ready(function(){
+            
+            for(i=0; i<array.length; i++){
+                
+                
+                $("#some-block-about-cars").append(           
+                    '<div class="card hoverable">'+
+                    '<div class="table">'+
+                             ' <div class="table__row table__row--head">'+
+                               ' <div class="table__cell table__cell--head objName'+i+'">Название</div>'+
+                                '<div class="table__cell table__cell--head objMiles'+i+'">Расход топлива мл/г</div>'+
+                                '<div class="table__cell table__cell--head objCylinders'+i+'">Цилиндры</div>'+
+                                '<div class="table__cell table__cell--head objDisplacement'+i+'">Рабочий объём</div>'+
+                                '<div class="table__cell table__cell--head objHorsePower'+i+'">Л.C</div>'+
+                                '<div class="table__cell table__cell--head objWeight_in_lbs'+i+'">Вес</div>'+
+                                '<div class="table__cell table__cell--head objAcceleration'+i+'">Ускорение м/c2</div>'+
+                                '<div class="table__cell table__cell--head objYear'+i+'">Год выпуска</div>'+
+                               ' <div class="table__cell table__cell--head objOrigin'+i+'">Производство</div>'+
+                              '</div>'+
+                            '</div>'+
+                '</div>');
+            
+                $('.objName'+i).html("<p>Название: "+array[i].Name+"</p>");
+                $('.objMiles'+i).html("<p>Расход топлива мл/г: "+array[i].Miles_per_Gallon.toString()+"</p>");
+                $('.objCylinders'+i).html("<p>Цилиндры: "+array[i].Cylinders.toString()+"</p>");
+                $('.objDisplacement'+i).html("<p>Рабочий объём: "+array[i].Displacement+"</p>");
+                $('.objHorsePower'+i).html("<p>Л.C: "+array[i].Horsepower+"</p>");
+                $('.objWeight_in_lbs'+i).html("<p>Вес: "+array[i].Weight_in_lbs+"</p>");
+                $('.objAcceleration'+i).html("<p>Ускорение м/c2: "+array[i].Acceleration+"</p>");
+                $('.objYear'+i).html("<p>Год выпуска: "+array[i].Year+"</p>");
+                $('.objOrigin'+i).html("<p>Производство: "+array[i].Origin+"</p>");
+                
+                
+                
+                
+                
+            //создаем p и заполняем его текстом
+             // $("<p>"+array[i].Name+"</p>").appendTo("#json");   
+                
+            //$("<h6>"+array[i].Name+"</h6>").appendTo(".objName");
+            
+                
+                
+                
+                
+                
+            }
+                          });
+        
+        
+      
+
+        
+        
+   
+
+        
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+
+
+<!-- Пример строки -->
+
+  <!--  <template>
+      <div class="table__row">
+        <div class="table__cell">chevrolet caprice classic</div>
+        <div class="table__cell">13</div>
+        <div class="table__cell">8</div>
+        <div class="table__cell">400</div>
+        <div class="table__cell">150</div>
+        <div class="table__cell">4464</div>
+        <div class="table__cell">12</div>
+        <div class="table__cell">1973-01-01</div>
+        <div class="table__cell">USA</div>
+      </div>
+    </template>-->
+
+<!-- ============= -->
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
